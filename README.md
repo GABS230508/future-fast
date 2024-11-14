@@ -4,10 +4,16 @@ Principais funcionalidades: cadastro, login e area do colaborador onde é possiv
 MongoDB, Google Gemini, NojeJS e Bootstrap
 Realizamos esse projeto pensando na irresponsabilidade financeira de muitos adultos nos dias de hoje.
 
-npm install express
-npm install mongodb
-npm install method-override
-npm install express-session
-npm install b-crypt
-npm install multer 
-npm install @google/generative-ai chalk ora prompt-sync
+npm install express;
+
+npm install mongodb;
+
+npm install method-override;
+
+npm install express-session;
+
+npm install b-crypt;
+
+npm install multer;
+
+npm install @google/generative-ai chalk ora prompt-sync.
