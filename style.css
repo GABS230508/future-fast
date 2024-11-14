@@ -1,0 +1,37 @@
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#form-login{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgb(220, 220, 220);
+}
+#iza, #carol, #gabs, #noguchi, #gratis, #plus, #premium, #gold{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#iza:hover, #carol:hover, #gabs:hover, #noguchi:hover, #gratis:hover, #plus:hover, #premium:hover, #gold:hover{
+    transform: scale(1.05); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+#preco{
+    font-weight: 480;
+}
+#mes{
+    font-size: 20px;
+}
+ul {
+    list-style: none;
+}
+.card li::before {
+    display: inline-block;
+    content: url("../img/check-lg.svg");
+    transform: translatey(0.25ch);
+    margin-right: 1ch;
+}
